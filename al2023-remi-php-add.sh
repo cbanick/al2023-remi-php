@@ -77,7 +77,7 @@ install_php ${remiv} ${phpv} \
 if ! [ "${MINIMUL}" = '1' ]
 then
   install_php ${remiv} ${phpv} \
-   bcmath intl mysqlnd pdo \
+   bcmath intl mysqlnd pdo gd \
    pecl-imagick-im7 pecl-memcache pecl-redis 
 fi
 
